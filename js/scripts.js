@@ -19,8 +19,6 @@ var numberConvert = function(string) {
     if ((pos1000 < 4) && (pos1000 > 0)) {
       result += "M";
       pos1000 -= 1;
-    } else if (pos1000 = 0) {
-      return;
     }
   };
 
@@ -40,8 +38,6 @@ var numberConvert = function(string) {
     if ((pos100 < 4) && (pos100 > 0)) {
       result += "C";
       pos100 -= 1;
-    } else if (pos100 = 0) {
-      return;
     }
   };
 
@@ -61,8 +57,6 @@ var numberConvert = function(string) {
     if ((pos10 < 4) && (pos10 > 0)) {
       result += "X";
       pos10 -= 1;
-    } else if (pos10 = 0) {
-      return;
     }
   };
 
@@ -82,8 +76,6 @@ var numberConvert = function(string) {
     if ((pos1 < 4) && (pos1 > 0)) {
       result += "I";
       pos1 -= 1;
-    } else if (pos10 = 0) {
-      return;
     }
   };
 };
